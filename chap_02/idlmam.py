@@ -4,7 +4,9 @@ import torch.nn.functional as F
 
 from torch.utils.data import Dataset, DataLoader
 
-from tqdm.autonotebook import tqdm
+# from tqdm.autonotebook import tqdm
+from tqdm.auto import tqdm
+
 
 
 import numpy as np
